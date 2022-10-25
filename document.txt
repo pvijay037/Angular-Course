@@ -1,0 +1,44 @@
+spa
+single page applications
+
+//dtat types
+string
+number
+boolean
+array
+enujm
+tuple
+any
+void 
+never
+
+
+//type inference
+lett inamme:string;
+inamme="vijay"
+inamme=inamme.touppercase();
+console.log(inamme);
+let age: number;
+age =25;
+
+//typecat
+int dob="25";
+let result =parseint(dob);
+
+let isVaid:bollean=false;
+
+let emplist=[];
+
+let emplist:string[];
+
+let edplist: Array.string;
+
+let numlist: Array.number;
+numlist=[3,4,5,,6,6,53,2]
+let result =numlist.fliter(num)=>num>2);
+
+result=numlist.find((num)=>num ===2);
+
+
+
+let sum= numlist.reduce((acc,num)=> acc +num);
